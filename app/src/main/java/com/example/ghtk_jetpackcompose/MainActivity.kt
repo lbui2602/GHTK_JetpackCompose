@@ -135,14 +135,38 @@ fun Tab2() {
             }
             Text("Đánh giá")
         }
+        Box(
+            modifier = Modifier
+                .width(2.dp)
+                .height(25.dp)
+                .padding(top = 10.dp)
+                .background(Color.Gray.copy(alpha = 0.5f))
+        )
+        Spacer(modifier = Modifier.width(10.dp))
         Column(modifier = Modifier.weight(1f)){
             Text("10 Shop", fontWeight = FontWeight.Bold, fontSize = 20.sp)
             Text("Đã ghé thăm")
         }
+        Box(
+            modifier = Modifier
+                .width(2.dp)
+                .height(25.dp)
+                .padding(top = 10.dp)
+                .background(Color.Gray.copy(alpha = 0.5f))
+        )
+        Spacer(modifier = Modifier.width(10.dp))
         Column(modifier = Modifier.weight(1f)){
             Text("11 Shop", fontWeight = FontWeight.Bold,fontSize = 20.sp)
             Text("Đã mua")
         }
+        Box(
+            modifier = Modifier
+                .width(2.dp)
+                .height(25.dp)
+                .padding(top = 10.dp)
+                .background(Color.Gray.copy(alpha = 0.5f))
+        )
+        Spacer(modifier = Modifier.width(10.dp))
         Column(modifier = Modifier.weight(1f)){
             Text("--")
             Text("Chu kỳ mua")
@@ -162,15 +186,42 @@ fun Tab1() {
             Text("Độ cháy túi")
         }
 
+        Box(
+            modifier = Modifier
+                .width(2.dp)
+                .height(25.dp)
+                .padding(top = 10.dp)
+                .background(Color.Gray.copy(alpha = 0.5f))
+        )
+        Spacer(modifier = Modifier.width(10.dp))
+
         Column(modifier = Modifier.weight(1f)){
             Text("80", fontWeight = FontWeight.Bold)
             Text("ĐH đã đặt")
         }
 
+        Box(
+            modifier = Modifier
+                .width(2.dp)
+                .height(25.dp)
+                .padding(top = 10.dp)
+                .background(Color.Gray.copy(alpha = 0.5f))
+        )
+        Spacer(modifier = Modifier.width(10.dp))
+
         Column(modifier = Modifier.weight(1f)){
             Text("--")
             Text("Thành công")
         }
+
+        Box(
+            modifier = Modifier
+                .width(2.dp)
+                .height(25.dp)
+                .padding(top = 10.dp)
+                .background(Color.Gray.copy(alpha = 0.5f))
+        )
+        Spacer(modifier = Modifier.width(10.dp))
 
         Column(modifier = Modifier.weight(1f)){
             Row{
@@ -238,12 +289,10 @@ fun UserProfileHeader() {
                     contentDescription = "Create Order",
                     tint = Color.White
                 )
-                Spacer(modifier = Modifier.width(10.dp)) // Adds some spacing between the icon and the text
+                Spacer(modifier = Modifier.width(10.dp))
                 Text("Theo dõi", color = Color.White)
             }
         }
-
-
     }
 }
 
